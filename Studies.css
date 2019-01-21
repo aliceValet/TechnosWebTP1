@@ -56,3 +56,7 @@ footer {
     height: 100%;
     margin:30px;
 }
+.rounded-circle{
+  box-shadow: 2px 2px 40px #E31C79;
+
+}
