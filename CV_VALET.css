@@ -58,10 +58,8 @@ footer {
   section{
   	float:right;
   	text-align: right;
-  	padding:30px;
-  }
-  section h3{
-  	padding-bottom: 10px;
+  	padding-right:30px;
+  	padding-top:10px;
   }
   .harp{
   	border-radius: 50%;
@@ -80,36 +78,15 @@ footer {
     font-size: 20px;
     line-height: 90px;
     cursor: pointer;
-    margin: 20px;
+    margin: 10px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    text-align: center;
     position: relative;
-    text-decoration: none;
-    z-index: 1;
     color: #fff;
 
 }
-.hovicon.small {
-    font-size: 20px;
-    line-height:45px;
-    width:45px;
-    height:45px;
-    margin:7px;
-}
-.hovicon.mini {
-    font-size: 15px;
-    line-height:32px;
-    width:30px;
-    height:30px;
-    margin:7px;
-}
-.hovicon.auto-width {
-    width: auto;
-    height: auto;
-    padding: 15px;
-}
+
 .hovicon:after {
     pointer-events: none;
     position: absolute;
@@ -159,9 +136,7 @@ footer {
     transform: scale(0.93);
     color: #fff;
 }
-.hovicon.effect-red:hover i {
-    color: #fff;
-}
+
 .hovicon.effect-red:hover:after {
     -webkit-animation: sonarEffect 1.3s ease-out 75ms;
     -moz-animation: sonarEffect 1.3s ease-out 75ms;
@@ -209,5 +184,13 @@ footer {
         opacity: 0;
     }
 }
-
-  
+.col-lg-6{
+	text-align: right;
+	float: right;
+}
+.icons{
+	float:right;
+}
+.display-3{
+	margin-bottom: 20px;
+}

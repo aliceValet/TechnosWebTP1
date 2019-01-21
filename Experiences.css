@@ -41,7 +41,7 @@ footer {
 }
 article{
   position: relative;
-  height: 300px;
+  height: 350px;
   background-image: linear-gradient(#F8DAEA, #FFFFFF);
   clip-path: polygon(
     0 0,
@@ -51,4 +51,27 @@ article{
   );
   /* change the calc height to a percentage height to get alternate responsive behavior*/
 
+}
+.col-lg-6{
+  float:right;
+  text-align: right;
+  margin:20px;
+
+}
+.hospital{
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 80%,
+    0 calc(100% - 6vw)
+  );
+}
+.aubay{
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+h4{
+  font-style:italic;
+  margin-bottom: 20px;
 }
